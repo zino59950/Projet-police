@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 375px; /* Fixe la largeur à 375 pixels pour le format mobile */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    background-color: blue; /* Changer la couleur de fond en bleu */
+    font-family: Arial, sans-serif;
+    color: white; /* Changer la couleur du texte en blanc pour la visibilité */
+}
+
+.demarrage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.demarrage img {
+    max-width: 100%;
+    width: 250px;
+    height: auto;
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px; /* Espace en bas de la page */
+}
+
+.connexion button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #0066cc;
+    color: white;
+    border-radius: 25px;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Ajoute une transition pour le survol */
+    width: 80%; /* Ajuste la largeur des boutons */
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.5); /* Ombre rouge */
+}
+
+.connexion button:hover {
+    background-color: #005bb5; /* Changer la couleur au survol */
+    transform: scale(1.1); /* Agrandir le bouton au survol */
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.7); /* Agrandir l'ombre au survol */
+}

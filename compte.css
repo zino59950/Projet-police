@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d47a1; /* Bleu foncé pour le fond */
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.logo {
+    margin-top: 50px; /* Marge en haut du logo */
+}
+
+.logo img {
+    width: 150px; /* Taille du logo */
+}
+
+.connexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Marge en haut de la section de connexion */
+}
+
+.connexion h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.connexion button {
+    margin: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #0066cc; /* Bleu pour les boutons */
+    color: white;
+    border-radius: 25px;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s; /* Transition sur le survol */
+    width: 80%;
+    max-width: 300px; /* Largeur maximale des boutons */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Ombre légère */
+}
+
+.connexion button:hover {
+    background-color: #005bb5; /* Changement de couleur au survol */
+    transform: scale(1.05); /* Agrandissement au survol */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Ombre plus prononcée */
+}
+
+/* Styles spécifiques pour chaque bouton de connexion */
+.connexion .google {
+    background-color: #DB4437; /* Rouge pour Google */
+}
+
+.connexion .apple {
+    background-color: black; /* Noir pour Apple */
+}
+
+.connexion .facebook {
+    background-color: #3B5998; /* Bleu foncé pour Facebook */
+}
